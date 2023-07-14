@@ -13,6 +13,7 @@ $border: 3px solid black;
   border: 3px solid black;
   border-radius: 0;
   box-shadow: $border-shadow;
+  padding: 1rem;
 
 }
 
@@ -24,12 +25,23 @@ $border: 3px solid black;
     color: variables.$clr-primary-light-500;
     border-radius: 0;
     box-shadow: $border-shadow;
+    &:hover{
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 4px;
+    }
   }
 
+}
+.details{
+  margin-top: 1rem;
 }
 
 .blog-section {
   h2 {
+    text-align: center;
+  }
+  h3{
     text-align: center;
   }
 
