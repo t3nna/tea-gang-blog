@@ -3,5 +3,4 @@ package-lock.json
 .idea
 .cache
 dist
-img
 .DS_Store
